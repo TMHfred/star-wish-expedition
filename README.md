@@ -1,4 +1,9 @@
 # 星之祈願：星界遠征
+
+## GitHub Pages
+遊戲網址：https://tmhfred.github.io/star-wish-expedition/
+
+Pages 來源使用 GitHub Actions；推送 main 後，`Publish playable game` 會先執行測試，再發布 dist。部署是否完成以 Actions 的結果為準。瀏覽器存檔依網站來源分開保存，不會自動帶入其他預覽站的進度。
 完整靜態遊戲交接包，基準為 2026-11-03 的 Sites v33。
 
 先讀 **CODEX_HANDOFF.md**。
