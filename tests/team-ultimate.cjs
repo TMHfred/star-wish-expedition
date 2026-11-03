@@ -1,0 +1,7 @@
+const A=require('node:assert/strict'),B=require('../dist/battle-engine.js');const positions=[{r:4,c:3},{r:4,c:4},{r:6,c:3},{r:3,c:3},{r:3,c:4},{r:0,c:3}];
+function setup(){const b=B.create(positions);b.autoUltimate=false;for(const i of [0,3])Object.assign(b.units[i],B.stats.tank,{type:"tank",max:540});for(const u of b.units)u.cool=99;return b}function run(b,n){for(let i=0;i<n;i++)B.step(b,.025)}
+let b=setup();b.units[0].energy=100;A(B.ultimate(b,0));A.equal(b.units[0].energy,0);A(!B.ultimate(b,0));run(b,27);A(b.units.slice(0,3).every(u=>u.shield===120));A(b.units.slice(3).every(u=>u.shield===0));b.units[3].cool=0;run(b,17);A.equal(b.units[0].hp,540);A(b.units[0].shield<120);b.units[3].cool=99;run(b,245);A(b.units.slice(0,3).every(u=>u.shield===0));
+b=setup();b.units[2].hp=0;b.units[0].energy=100;B.ultimate(b,0);run(b,27);A.equal(b.units[2].shield,0);b.units[0].energy=100;B.ultimate(b,0);run(b,27);A.equal(b.units[0].shield,120,'shield must not stack');
+b=setup();b.units[1].energy=100;A(B.ultimate(b,1));run(b,41);A.equal(b.events.filter(e=>e.type.startsWith('combo')).length,3);A.equal(b.units[3].hp,415);A.equal(b.units[1].energy,0);
+b=setup();b.units[1].energy=100;B.ultimate(b,1);b.units[3].pos={r:0,c:6};run(b,41);A.equal(b.units[3].hp,540,'no remote combo');
+b=setup();b.units[1].energy=100;B.ultimate(b,1);b.units[1].hp=0;run(b,41);A.equal(b.units[3].hp,540,'dead caster stops combo');console.log('PASS team shield, absorption, expiry, no stack/dead ally; three hits, range, caster death');

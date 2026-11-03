@@ -1,0 +1,850 @@
+{
+  "schema": "generate2dsprite.full_frames.v2",
+  "frame_size": [
+    406,
+    362
+  ],
+  "source_frame_count": 12,
+  "sources": [
+    {
+      "path": "../swordsman-sheet.png",
+      "file_sha256": "d3a5115182de1665d6e853205264ad45da2178d8dada3a0f1132a60287ffee14",
+      "bytes": 1755760,
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGBA",
+      "source_mode": "RGBA",
+      "bit_depth": 8,
+      "conversion": "none"
+    }
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "file": "frames/frame-00.png",
+      "source_index": 0,
+      "crop_box": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "crop_id": "sword-00",
+      "sheet_origin": [
+        -1,
+        0
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        406,
+        362
+      ],
+      "mode": "RGBA",
+      "file_sha256": "3f511df6dc524b614fdca21bc639990da865c0473397fa7467752a9e2cf664f7",
+      "rgba_pixel_sha256": "b716624b410bce26e9f460ab7efefbbcb00a3b8ce1504f1e8bf19bb521301527"
+    },
+    {
+      "index": 1,
+      "file": "frames/frame-01.png",
+      "source_index": 0,
+      "crop_box": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "crop_id": "sword-01",
+      "sheet_origin": [
+        361,
+        0
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        406,
+        362
+      ],
+      "mode": "RGBA",
+      "file_sha256": "8dc13b2cee85bf43430c95adfc570d2ffb1229d2e3e5b7a3d35ccbd12ccd4b92",
+      "rgba_pixel_sha256": "7eb1d694d161a0d0dcf8a0cb9a2c970f319c9193347836bd4599703efae9d59d"
+    },
+    {
+      "index": 2,
+      "file": "frames/frame-02.png",
+      "source_index": 0,
+      "crop_box": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "crop_id": "sword-02",
+      "sheet_origin": [
+        723,
+        0
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 96,
+      "size": [
+        406,
+        362
+      ],
+      "mode": "RGBA",
+      "file_sha256": "c43cdeb6c5928b486884841323b2bbc9ef8dc72c7004b6d1985b013a388af4d1",
+      "rgba_pixel_sha256": "7ae859eeb4b1ceb97573cce48ecb4793b617a0a834d2833d7c0e0c4928a95f00"
+    },
+    {
+      "index": 3,
+      "file": "frames/frame-03.png",
+      "source_index": 0,
+      "crop_box": [
+        1086,
+        0,
+        1448,
+        362
+      ],
+      "crop_id": "sword-03",
+      "sheet_origin": [
+        1085,
+        0
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        406,
+        362
+      ],
+      "mode": "RGBA",
+      "file_sha256": "7d50eb4b9428ecbe3b411b63ba2a186521a09709b531872fe8c7cb3bd3b76903",
+      "rgba_pixel_sha256": "a10aadf05fc7cacfe5510db22ed12d842bb1c63a9dace5bcc1260cc8ad25168e"
+    },
+    {
+      "index": 4,
+      "file": "frames/frame-04.png",
+      "source_index": 0,
+      "crop_box": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "crop_id": "sword-04",
+      "sheet_origin": [
+        -1,
+        362
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 111,
+      "size": [
+        406,
+        362
+      ],
+      "mode": "RGBA",
+      "file_sha256": "7ad150d1d775f9a147b608017226c7259821d262503484352e20a4c3b20e50ab",
+      "rgba_pixel_sha256": "6dd448b0877190f4d6177f016dd9da882eac659f814381d9577ae61fe3000348"
+    },
+    {
+      "index": 5,
+      "file": "frames/frame-05.png",
+      "source_index": 0,
+      "crop_box": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "crop_id": "sword-05",
+      "sheet_origin": [
+        361,
+        362
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        406,
+        362
+      ],
+      "mode": "RGBA",
+      "file_sha256": "fdd5349cbfd96d57b289767a9ab0d2e123c1b16ad489ebbd0162ce343bec7635",
+      "rgba_pixel_sha256": "7366ed618e8b676b79e824ed558c347c10a5b1b14a73d1b626f503fe0cefc07a"
+    },
+    {
+      "index": 6,
+      "file": "frames/frame-06.png",
+      "source_index": 0,
+      "crop_box": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "crop_id": "sword-06",
+      "sheet_origin": [
+        723,
+        362
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        406,
+        362
+      ],
+      "mode": "RGBA",
+      "file_sha256": "969db8c79741546ff94fde9c9c6fd1c784f4faeb8423b23f737d1990066a7adf",
+      "rgba_pixel_sha256": "48d1b8d144dc0b5464b075dac0936068d425c83d217113ade5deadd23be0bcfd"
+    },
+    {
+      "index": 7,
+      "file": "frames/frame-07.png",
+      "source_index": 0,
+      "crop_box": [
+        1086,
+        362,
+        1448,
+        724
+      ],
+      "crop_id": "sword-07",
+      "sheet_origin": [
+        1085,
+        362
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 1,
+      "size": [
+        406,
+        362
+      ],
+      "mode": "RGBA",
+      "file_sha256": "05e697e541f3022e5c67348679d92dc08794b3cae069cd81ffa5237ea87ca419",
+      "rgba_pixel_sha256": "319cdb27a1a78d03ce5e3584223e9bc299d536367a72e5e73a7da663cc321ede"
+    },
+    {
+      "index": 8,
+      "file": "frames/frame-08.png",
+      "source_index": 0,
+      "crop_box": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "crop_id": "sword-08",
+      "sheet_origin": [
+        -1,
+        724
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 1055,
+      "size": [
+        406,
+        362
+      ],
+      "mode": "RGBA",
+      "file_sha256": "19932ad6735628101564cd540736ad67820f59726a3ea88f98fbeeab739397d3",
+      "rgba_pixel_sha256": "38e40c975b84c433f19bdc4fcad004e0363d9a012f2c794e6b48cd579bf916c8"
+    },
+    {
+      "index": 9,
+      "file": "frames/frame-09.png",
+      "source_index": 0,
+      "crop_box": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "crop_id": "sword-09",
+      "sheet_origin": [
+        361,
+        724
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        406,
+        362
+      ],
+      "mode": "RGBA",
+      "file_sha256": "2df550fb755bbe5153d4ad646dae81352b74124fd417a9985df0b326850f312a",
+      "rgba_pixel_sha256": "d8d72bca08bb4b11b5ce823051637aead2c68e1a98d6feb4260cd70bee4d30de"
+    },
+    {
+      "index": 10,
+      "file": "frames/frame-10.png",
+      "source_index": 0,
+      "crop_box": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "crop_id": "sword-10",
+      "sheet_origin": [
+        723,
+        724
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        406,
+        362
+      ],
+      "mode": "RGBA",
+      "file_sha256": "0e9c701e196363b355dbffc80b727daa55c3c053971c3fb6f73cb1b4ccfce57a",
+      "rgba_pixel_sha256": "42d9a65d176b86c4909b63bb32d7c4feb9905a5504febf67826ebff28519e447"
+    },
+    {
+      "index": 11,
+      "file": "frames/frame-11.png",
+      "source_index": 0,
+      "crop_box": [
+        1086,
+        724,
+        1448,
+        1086
+      ],
+      "crop_id": "sword-11",
+      "sheet_origin": [
+        1085,
+        724
+      ],
+      "owned_components": 1,
+      "pixels_from_outside_cell": 0,
+      "size": [
+        406,
+        362
+      ],
+      "mode": "RGBA",
+      "file_sha256": "f300f03695e0faa34f8a451c96524b80ba94392e2a434623fd0e2bbc5977bf26",
+      "rgba_pixel_sha256": "06d0ad68503087685323d25b0a7811cde1e6cff73a489b34a93bd443d71adcdd"
+    }
+  ],
+  "sequence": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "duration_ms": 130,
+  "total_duration_ms": 1560,
+  "loop": 0,
+  "atlas": {
+    "file": "atlas.png",
+    "size": [
+      1624,
+      1086
+    ],
+    "rows": 3,
+    "cols": 4,
+    "file_sha256": "10d23d84eaff5fb163e40c987d34b634f822f9acbd3ff8dae0e52f19f918c864",
+    "rgba_pixels_exact": true
+  },
+  "webp": {
+    "decoded_frame_count": 12,
+    "decoded_frames": [
+      {
+        "index": 0,
+        "timestamp_ms": 0,
+        "duration_ms": 130,
+        "sequence_positions": [
+          0
+        ]
+      },
+      {
+        "index": 1,
+        "timestamp_ms": 130,
+        "duration_ms": 130,
+        "sequence_positions": [
+          1
+        ]
+      },
+      {
+        "index": 2,
+        "timestamp_ms": 260,
+        "duration_ms": 130,
+        "sequence_positions": [
+          2
+        ]
+      },
+      {
+        "index": 3,
+        "timestamp_ms": 390,
+        "duration_ms": 130,
+        "sequence_positions": [
+          3
+        ]
+      },
+      {
+        "index": 4,
+        "timestamp_ms": 520,
+        "duration_ms": 130,
+        "sequence_positions": [
+          4
+        ]
+      },
+      {
+        "index": 5,
+        "timestamp_ms": 650,
+        "duration_ms": 130,
+        "sequence_positions": [
+          5
+        ]
+      },
+      {
+        "index": 6,
+        "timestamp_ms": 780,
+        "duration_ms": 130,
+        "sequence_positions": [
+          6
+        ]
+      },
+      {
+        "index": 7,
+        "timestamp_ms": 910,
+        "duration_ms": 130,
+        "sequence_positions": [
+          7
+        ]
+      },
+      {
+        "index": 8,
+        "timestamp_ms": 1040,
+        "duration_ms": 130,
+        "sequence_positions": [
+          8
+        ]
+      },
+      {
+        "index": 9,
+        "timestamp_ms": 1170,
+        "duration_ms": 130,
+        "sequence_positions": [
+          9
+        ]
+      },
+      {
+        "index": 10,
+        "timestamp_ms": 1300,
+        "duration_ms": 130,
+        "sequence_positions": [
+          10
+        ]
+      },
+      {
+        "index": 11,
+        "timestamp_ms": 1430,
+        "duration_ms": 130,
+        "sequence_positions": [
+          11
+        ]
+      }
+    ],
+    "total_duration_ms": 1560,
+    "loop": 0,
+    "alpha_and_visible_rgb_exact": true,
+    "timeline_verified": true,
+    "hidden_rgb_guaranteed": false,
+    "file": "animation.webp",
+    "file_sha256": "39a7ffd05a57fe941879b51882f6d037165f179c4fe65d78d7360a236d544f18",
+    "bytes": 1209232,
+    "lossless": true,
+    "quality": 75,
+    "method": 3,
+    "timed_static_container": false,
+    "all_keyframes": false
+  },
+  "transitions": [
+    {
+      "from_sequence_position": 0,
+      "to_sequence_position": 1,
+      "from_frame": 0,
+      "to_frame": 1,
+      "wrap": false,
+      "premultiplied_rgb_mae": 16.559734,
+      "alpha_mae": 31.698514,
+      "changed_visible_pixels": 59388
+    },
+    {
+      "from_sequence_position": 1,
+      "to_sequence_position": 2,
+      "from_frame": 1,
+      "to_frame": 2,
+      "wrap": false,
+      "premultiplied_rgb_mae": 17.090197,
+      "alpha_mae": 33.430021,
+      "changed_visible_pixels": 60127
+    },
+    {
+      "from_sequence_position": 2,
+      "to_sequence_position": 3,
+      "from_frame": 2,
+      "to_frame": 3,
+      "wrap": false,
+      "premultiplied_rgb_mae": 17.363312,
+      "alpha_mae": 34.115308,
+      "changed_visible_pixels": 60653
+    },
+    {
+      "from_sequence_position": 3,
+      "to_sequence_position": 4,
+      "from_frame": 3,
+      "to_frame": 4,
+      "wrap": false,
+      "premultiplied_rgb_mae": 21.434364,
+      "alpha_mae": 40.138639,
+      "changed_visible_pixels": 64692
+    },
+    {
+      "from_sequence_position": 4,
+      "to_sequence_position": 5,
+      "from_frame": 4,
+      "to_frame": 5,
+      "wrap": false,
+      "premultiplied_rgb_mae": 24.05831,
+      "alpha_mae": 44.659085,
+      "changed_visible_pixels": 67657
+    },
+    {
+      "from_sequence_position": 5,
+      "to_sequence_position": 6,
+      "from_frame": 5,
+      "to_frame": 6,
+      "wrap": false,
+      "premultiplied_rgb_mae": 19.77404,
+      "alpha_mae": 32.737685,
+      "changed_visible_pixels": 64973
+    },
+    {
+      "from_sequence_position": 6,
+      "to_sequence_position": 7,
+      "from_frame": 6,
+      "to_frame": 7,
+      "wrap": false,
+      "premultiplied_rgb_mae": 24.161278,
+      "alpha_mae": 52.326885,
+      "changed_visible_pixels": 69748
+    },
+    {
+      "from_sequence_position": 7,
+      "to_sequence_position": 8,
+      "from_frame": 7,
+      "to_frame": 8,
+      "wrap": false,
+      "premultiplied_rgb_mae": 26.49629,
+      "alpha_mae": 62.343793,
+      "changed_visible_pixels": 72078
+    },
+    {
+      "from_sequence_position": 8,
+      "to_sequence_position": 9,
+      "from_frame": 8,
+      "to_frame": 9,
+      "wrap": false,
+      "premultiplied_rgb_mae": 25.110256,
+      "alpha_mae": 54.586227,
+      "changed_visible_pixels": 67550
+    },
+    {
+      "from_sequence_position": 9,
+      "to_sequence_position": 10,
+      "from_frame": 9,
+      "to_frame": 10,
+      "wrap": false,
+      "premultiplied_rgb_mae": 15.016923,
+      "alpha_mae": 16.978084,
+      "changed_visible_pixels": 56077
+    },
+    {
+      "from_sequence_position": 10,
+      "to_sequence_position": 11,
+      "from_frame": 10,
+      "to_frame": 11,
+      "wrap": false,
+      "premultiplied_rgb_mae": 13.85925,
+      "alpha_mae": 15.560678,
+      "changed_visible_pixels": 57242
+    },
+    {
+      "from_sequence_position": 11,
+      "to_sequence_position": 0,
+      "from_frame": 11,
+      "to_frame": 0,
+      "wrap": true,
+      "premultiplied_rgb_mae": 24.371559,
+      "alpha_mae": 48.003082,
+      "changed_visible_pixels": 67432
+    }
+  ],
+  "loop_seam": {
+    "frames": 12,
+    "seam": 30.27944,
+    "adjacent_median": 23.014953,
+    "adjacent_p95": 33.968707,
+    "adjacent_max": 35.458166,
+    "seam_over_median": 1.315642,
+    "seam_over_p95": 0.891392,
+    "method": "premultiplied RGBA mean absolute difference (0-255); seam = last -> first",
+    "adjacent_mean": 24.576063,
+    "wrap_ratio": 1.23207
+  },
+  "loop_overlap": null,
+  "static_regions": {},
+  "key": {
+    "mode": "none"
+  },
+  "slicing": {
+    "source": "crop_boxes",
+    "crop_box_format": "items",
+    "mode": "ownership",
+    "threshold": 16,
+    "min_area": 4,
+    "attach_radius": 6,
+    "connectivity": 8,
+    "canvas": [
+      406,
+      362
+    ],
+    "padding": [
+      1,
+      0,
+      43,
+      0
+    ],
+    "registration": "frame pixel (u, v) = sheet pixel (u - padding[0] + cell x0, v - padding[1] + cell y0)",
+    "attached_px": 84652,
+    "cell_fallback_px": 11959,
+    "dropped_px": 0,
+    "haze": "keep",
+    "hidden_rgb": "zeroed (only visible pixels are copied)",
+    "method": "forge_core.ownership_slice (D14): 8-connected components of alpha > threshold with at least min_area px go whole to the cell holding most of their pixels; fainter visible pixels join the owner they reach within attach_radius steps; haze keep/drop decides the rest; one shared padding keeps registration"
+  },
+  "spill_check": {
+    "threshold": 16,
+    "min_area": 4,
+    "connectivity": 8,
+    "components": 20,
+    "crossing": [
+      {
+        "label": 4,
+        "area": 43664,
+        "bbox": [
+          753,
+          28,
+          1096,
+          358
+        ],
+        "owner": 2,
+        "owner_id": "sword-02",
+        "pixels_over": 72,
+        "overhang_px": 10,
+        "pixels_per_box": {
+          "sword-02": 43592,
+          "sword-03": 72
+        },
+        "pixels_outside_every_box": 0
+      },
+      {
+        "label": 9,
+        "area": 46588,
+        "bbox": [
+          30,
+          404,
+          371,
+          718
+        ],
+        "owner": 4,
+        "owner_id": "sword-04",
+        "pixels_over": 52,
+        "overhang_px": 9,
+        "pixels_per_box": {
+          "sword-04": 46536,
+          "sword-05": 52
+        },
+        "pixels_outside_every_box": 0
+      },
+      {
+        "label": 19,
+        "area": 45632,
+        "bbox": [
+          52,
+          760,
+          402,
+          1056
+        ],
+        "owner": 8,
+        "owner_id": "sword-08",
+        "pixels_over": 709,
+        "overhang_px": 40,
+        "pixels_per_box": {
+          "sword-08": 44923,
+          "sword-09": 709
+        },
+        "pixels_outside_every_box": 0
+      }
+    ],
+    "specks_crossing": 0,
+    "unboxed_components": 0,
+    "unboxed_px": 0,
+    "verdict": "spill",
+    "status": "resolved",
+    "background_share": 0.662395,
+    "note": "--slice ownership keeps each crossing component whole in its owner cell."
+  },
+  "provenance": {
+    "user_manifest": {
+      "art_source": "host_image",
+      "purpose": "melee walk and attack keyframes prototype"
+    },
+    "user_assertions_verified": false
+  },
+  "validation": {
+    "png_rgba_exact": true,
+    "atlas_rgba_exact": true,
+    "webp_timeline_verified": true,
+    "visual_approval": false,
+    "note": "Numerical diagnostics only; no claim of seamless motion or visual continuity."
+  },
+  "processing": {
+    "resized": false,
+    "aligned": false,
+    "chroma_keyed": false,
+    "masked": true,
+    "blended": false
+  },
+  "qa": {
+    "status": "needs-visual-review",
+    "method": "Lossless packaging: frame PNGs and the atlas are decoded and compared pixel for pixel; the WebP timeline and its visible RGBA are decoded and verified. Spill: 8-connected components of alpha above the threshold that leave their owner cell. Seams: forge_core.seam_report of the played sequence (premultiplied RGBA MAE); wrap_ratio = seam / mean adjacent step. Drift: NCC of premultiplied luma.",
+    "notProven": [
+      "visual quality, identity or anatomy of any frame",
+      "smooth motion or a seamless loop (seam ratios are numeric diagnostics only)",
+      "that the crop boxes, grid or sequence match the intended phases",
+      "that RGB hidden under alpha 0 survives the WebP preview"
+    ],
+    "checks": [
+      {
+        "id": "png_rgba_exact",
+        "status": "pass",
+        "value": true,
+        "threshold": null
+      },
+      {
+        "id": "atlas_rgba_exact",
+        "status": "pass",
+        "value": true,
+        "threshold": null
+      },
+      {
+        "id": "webp_timeline",
+        "status": "pass",
+        "value": 1560,
+        "threshold": null
+      },
+      {
+        "id": "cross_cell_spill",
+        "status": "pass",
+        "value": 833,
+        "threshold": 0
+      },
+      {
+        "id": "loop_seam",
+        "status": "needs-visual-review",
+        "value": 1.23207,
+        "threshold": null
+      }
+    ],
+    "inputs": [
+      {
+        "path": "../swordsman-sheet.png",
+        "sha256": "d3a5115182de1665d6e853205264ad45da2178d8dada3a0f1132a60287ffee14",
+        "bytes": 1755760
+      }
+    ],
+    "outputs": [
+      {
+        "path": "frames/frame-00.png",
+        "sha256": "3f511df6dc524b614fdca21bc639990da865c0473397fa7467752a9e2cf664f7",
+        "bytes": 137426
+      },
+      {
+        "path": "frames/frame-01.png",
+        "sha256": "8dc13b2cee85bf43430c95adfc570d2ffb1229d2e3e5b7a3d35ccbd12ccd4b92",
+        "bytes": 125884
+      },
+      {
+        "path": "frames/frame-02.png",
+        "sha256": "c43cdeb6c5928b486884841323b2bbc9ef8dc72c7004b6d1985b013a388af4d1",
+        "bytes": 139903
+      },
+      {
+        "path": "frames/frame-03.png",
+        "sha256": "7d50eb4b9428ecbe3b411b63ba2a186521a09709b531872fe8c7cb3bd3b76903",
+        "bytes": 129126
+      },
+      {
+        "path": "frames/frame-04.png",
+        "sha256": "7ad150d1d775f9a147b608017226c7259821d262503484352e20a4c3b20e50ab",
+        "bytes": 145643
+      },
+      {
+        "path": "frames/frame-05.png",
+        "sha256": "fdd5349cbfd96d57b289767a9ab0d2e123c1b16ad489ebbd0162ce343bec7635",
+        "bytes": 149101
+      },
+      {
+        "path": "frames/frame-06.png",
+        "sha256": "969db8c79741546ff94fde9c9c6fd1c784f4faeb8423b23f737d1990066a7adf",
+        "bytes": 147416
+      },
+      {
+        "path": "frames/frame-07.png",
+        "sha256": "05e697e541f3022e5c67348679d92dc08794b3cae069cd81ffa5237ea87ca419",
+        "bytes": 137166
+      },
+      {
+        "path": "frames/frame-08.png",
+        "sha256": "19932ad6735628101564cd540736ad67820f59726a3ea88f98fbeeab739397d3",
+        "bytes": 143001
+      },
+      {
+        "path": "frames/frame-09.png",
+        "sha256": "2df550fb755bbe5153d4ad646dae81352b74124fd417a9985df0b326850f312a",
+        "bytes": 133038
+      },
+      {
+        "path": "frames/frame-10.png",
+        "sha256": "0e9c701e196363b355dbffc80b727daa55c3c053971c3fb6f73cb1b4ccfce57a",
+        "bytes": 137264
+      },
+      {
+        "path": "frames/frame-11.png",
+        "sha256": "f300f03695e0faa34f8a451c96524b80ba94392e2a434623fd0e2bbc5977bf26",
+        "bytes": 141187
+      },
+      {
+        "path": "atlas.png",
+        "sha256": "10d23d84eaff5fb163e40c987d34b634f822f9acbd3ff8dae0e52f19f918c864",
+        "bytes": 1657752
+      },
+      {
+        "path": "animation.webp",
+        "sha256": "39a7ffd05a57fe941879b51882f6d037165f179c4fe65d78d7360a236d544f18",
+        "bytes": 1209232
+      }
+    ],
+    "tool": {
+      "name": "assemble_frames",
+      "version": "0.4.0"
+    }
+  }
+}
