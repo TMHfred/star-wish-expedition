@@ -1,0 +1,7 @@
+const A=require('node:assert/strict'),C=require('../dist/chapter-one.js'),B=require('../dist/battle-engine.js'),E=require('../dist/test-encounter.js'),S=require('../dist/starboard.js');
+A.equal(C.stages.length,20);A.equal(new Set(C.stages.flatMap(s=>s.monsters)).size,6);A(!C.unlocked(2,[]));A(C.unlocked(2,[1]));A(!C.unlocked(21,[20]));A.throws(()=>C.create(0,E.positions,[1]));
+const data=new Map,storage={getItem:k=>data.get(k)??null,setItem:(k,v)=>data.set(k,v)};
+for(const stage of C.stages){let state=S.load(storage);const batch=S.batch(state);if(batch.length)state=S.purchase(storage,state,batch);for(const n of S.nodes.filter(n=>n.type==='key')){try{state=S.purchase(storage,state,[n.id])}catch{}}
+const b=C.create(stage.id,E.positions,[1,0,6,7,8]);S.apply(b.units[6],state,B);const enemies=b.units.filter(u=>u.team===1&&u.hp>0);A.equal(enemies.length,stage.monsters.length);A.equal(new Set(enemies.map(u=>u.pos.r+','+u.pos.c)).size,enemies.length);A(enemies.every(u=>u.pos.r<4&&u.enemyArt>=0&&u.enemyArt<6));for(let i=0;i<3600&&!b.result;i++)B.step(b,.025);A.equal(b.result,'我方勝利','stage '+stage.id);S.claimVictory(storage,stage.id,b.result)}
+A.equal(S.load(storage).firstClears.length,20);const test=E.create();A.equal(test.units[3].max,B.stats.archer.hp*5);
+console.log('PASS 20 stages, six species, unique placements, progressive rewards/training clear simulation and preserved test encounter');

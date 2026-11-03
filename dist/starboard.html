@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#123f45"><title>嘉妮特的星盤｜星界遠征</title><link rel="stylesheet" href="starboard.css"></head>
+<body><main><header><a href="lobby.html">‹ 返回大廳</a><span id="balance"></span></header>
+<section class="hero"><img src="assets/knight-standard.png" alt="紅蓮女戰士 嘉妮特"><div><small>紅蓮女戰士</small><h1>嘉妮特的星盤</h1><p id="level"></p><p id="stats"></p></div></section>
+<p class="hint">拖曳探索星盤 · 點選節點查看效果</p><nav><button id="zoom-out" aria-label="縮小星盤">－</button><button id="zoom-in" aria-label="放大星盤">＋</button><button id="center">回到中央</button><button id="batch">一鍵培養</button></nav>
+<div id="viewport" tabindex="0" aria-label="可捲動星盤"><div id="map"><svg id="links" viewBox="0 0 1400 1400" aria-hidden="true"></svg><div class="core">✧<br>嘉妮特</div><div id="nodes"></div></div></div>
+<p id="notice" role="status" aria-live="polite"></p><p class="hint">首次通過森林試煉 1-1 可獲得30星輝碎片；重複通關無獎勵。一般節點可一鍵培養，關鍵節點需手動解鎖。</p>
+<dialog id="detail"><h2 id="title"></h2><p id="description"></p><p id="change"></p><p id="cost"></p><p id="condition"></p><div class="actions"><button id="cancel">返回</button><button id="confirm">確認培養</button></div></dialog>
+</main><script src="melee-engine.js"></script><script src="character-battle.js?v=43"></script><script src="battle-engine.js?v=43"></script><script src="starboard.js?v=43"></script><script src="character-data.js?v=43"></script><script src="hero-data.js?v=43"></script><script src="summon.js?v=43"></script><script src="onboarding.js?v=43"></script><script src="hero-growth.js?v=43"></script><script src="starboard-ui.js?v=43"></script></body></html>

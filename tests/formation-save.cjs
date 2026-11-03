@@ -1,0 +1,13 @@
+const A=require('node:assert/strict'),S=require('../dist/formation-save.js'),E=require('../dist/test-encounter.js');
+const data=new Map,storage={getItem:k=>data.get(k)||null,setItem:(k,v)=>data.set(k,v)};
+const ids=[8,6,1],positions=E.positions.map(p=>({...p}));positions[8]={r:4,c:0};
+A.equal(S.load(storage,E.positions),null);
+A(S.save(storage,ids,positions,E.positions));
+A.deepEqual(S.load(storage,E.positions),{ids,positions});
+const saved=data.get(S.key);const parsed=JSON.parse(saved);
+for(const patch of [{party:[]},{party:['mila','mila']},{party:['unknown']},{party:['sword','mage','archer','garnet','katia','mila']},{positions:{...parsed.positions,mila:{r:3,c:0}}},{positions:{...parsed.positions,mila:parsed.positions.garnet}}])A.throws(()=>S.decode({...parsed,...patch},E.positions));
+A(S.save(storage,[1],positions,E.positions));data.set(S.key,'broken');A.deepEqual(S.load(storage,E.positions).ids,ids);
+data.clear();data.set(S.key,'broken');A.equal(S.load(storage,E.positions),null);
+data.set(S.key,JSON.stringify({...parsed,version:2}));A(S.load(storage,E.positions).blocked);A.equal(S.save(storage,ids,positions,E.positions),false);
+const denied={getItem(){throw Error('denied')},setItem(){throw Error('quota')}};A.equal(S.load(denied,E.positions),null);A.equal(S.save(denied,ids,positions,E.positions),false);
+console.log('PASS formation persistence, order, position validation, backup, future version protection and unavailable storage');
